@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEARPELIS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <link rel="stylesheet" href="/Pagina/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+    
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            margin-right: auto;
+        }
+
+        .menu-icono {
+            display: none; /* Puedes mostrar un ícono aquí */
+        }
+
+        #menu {
+            display: none;
+        }
+
+        .navbar {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .video {
+            width: 80%;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu container">
+            <a href="#" class="logo">BEARPELIS</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/Pagina/index.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video-container">
+        <iframe class="video" allowfullscreen="" frameborder="0" src="https://iframe.mediadelivery.net/embed/198478/9300c031-bf6b-4f23-9176-65de2fd0d59f?token=77852179bcb564a18132eabd176a946577bb500666d2da591b8258a45d7e8a03&expires=1706342335&autoplay=false&loop=false&muted=false&preload=true&responsive=true"></iframe>
+    </div>
+    
+</body>
+</html>
